@@ -23,15 +23,15 @@ body {
 .content {
     background: #e3f4ff;
     padding: 16px 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .button-container {
     background: #e3f4ff;
     padding: 8px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button {
@@ -39,4 +39,5 @@ button {
     border: 1px solid #eee;
 
     display: block;
+    padding: 8px 24px;
 }
